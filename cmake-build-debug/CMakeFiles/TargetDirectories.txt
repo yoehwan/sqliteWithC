@@ -1,0 +1,3 @@
+/media/yoehwan/D/c_project/sqlite/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/media/yoehwan/D/c_project/sqlite/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/yoehwan/D/c_project/sqlite/cmake-build-debug/CMakeFiles/sqlite.dir
