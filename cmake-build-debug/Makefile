@@ -142,6 +142,33 @@ sqlite/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite.dir/build.make CMakeFiles/sqlite.dir/build
 .PHONY : sqlite/fast
 
+input_buffer.o: input_buffer.c.o
+
+.PHONY : input_buffer.o
+
+# target to build an object file
+input_buffer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite.dir/build.make CMakeFiles/sqlite.dir/input_buffer.c.o
+.PHONY : input_buffer.c.o
+
+input_buffer.i: input_buffer.c.i
+
+.PHONY : input_buffer.i
+
+# target to preprocess a source file
+input_buffer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite.dir/build.make CMakeFiles/sqlite.dir/input_buffer.c.i
+.PHONY : input_buffer.c.i
+
+input_buffer.s: input_buffer.c.s
+
+.PHONY : input_buffer.s
+
+# target to generate assembly for a file
+input_buffer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite.dir/build.make CMakeFiles/sqlite.dir/input_buffer.c.s
+.PHONY : input_buffer.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -169,6 +196,33 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite.dir/build.make CMakeFiles/sqlite.dir/main.c.s
 .PHONY : main.c.s
 
+meta_data.o: meta_data.c.o
+
+.PHONY : meta_data.o
+
+# target to build an object file
+meta_data.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite.dir/build.make CMakeFiles/sqlite.dir/meta_data.c.o
+.PHONY : meta_data.c.o
+
+meta_data.i: meta_data.c.i
+
+.PHONY : meta_data.i
+
+# target to preprocess a source file
+meta_data.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite.dir/build.make CMakeFiles/sqlite.dir/meta_data.c.i
+.PHONY : meta_data.c.i
+
+meta_data.s: meta_data.c.s
+
+.PHONY : meta_data.s
+
+# target to generate assembly for a file
+meta_data.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite.dir/build.make CMakeFiles/sqlite.dir/meta_data.c.s
+.PHONY : meta_data.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -178,9 +232,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... sqlite"
+	@echo "... input_buffer.o"
+	@echo "... input_buffer.i"
+	@echo "... input_buffer.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... meta_data.o"
+	@echo "... meta_data.i"
+	@echo "... meta_data.s"
 .PHONY : help
 
 

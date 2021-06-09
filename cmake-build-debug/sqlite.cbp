@@ -76,7 +76,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/media/yoehwan/D/c_project/sqlite/input_buffer.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/media/yoehwan/D/c_project/sqlite/input_buffer.h">
+			<Option target="sqlite"/>
+		</Unit>
 		<Unit filename="/media/yoehwan/D/c_project/sqlite/main.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/media/yoehwan/D/c_project/sqlite/meta_data.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/media/yoehwan/D/c_project/sqlite/meta_data.h">
 			<Option target="sqlite"/>
 		</Unit>
 		<Unit filename="/media/yoehwan/D/c_project/sqlite/CMakeLists.txt">

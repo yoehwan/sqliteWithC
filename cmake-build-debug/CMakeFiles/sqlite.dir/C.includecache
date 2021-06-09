@@ -6,13 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/media/yoehwan/D/c_project/sqlite/main.c
+/media/yoehwan/D/c_project/sqlite/input_buffer.h
 stdio.h
--
-stdbool.h
 -
 stdlib.h
 -
 string.h
 -
+stdbool.h
+-
+
+/media/yoehwan/D/c_project/sqlite/main.c
+meta_data.h
+/media/yoehwan/D/c_project/sqlite/meta_data.h
+
+/media/yoehwan/D/c_project/sqlite/meta_data.h
+input_buffer.h
+/media/yoehwan/D/c_project/sqlite/input_buffer.h
 
