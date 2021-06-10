@@ -76,6 +76,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/media/yoehwan/D/c_project/sqlite/const.c">
+			<Option target="sqlite"/>
+		</Unit>
+		<Unit filename="/media/yoehwan/D/c_project/sqlite/const.h">
+			<Option target="sqlite"/>
+		</Unit>
 		<Unit filename="/media/yoehwan/D/c_project/sqlite/input_buffer.c">
 			<Option target="sqlite"/>
 		</Unit>

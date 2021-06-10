@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/sqlite.dir/const.c.o"
   "CMakeFiles/sqlite.dir/input_buffer.c.o"
   "CMakeFiles/sqlite.dir/main.c.o"
   "CMakeFiles/sqlite.dir/meta_data.c.o"

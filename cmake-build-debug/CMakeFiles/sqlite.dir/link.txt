@@ -1,1 +1,1 @@
-/usr/bin/cc -g CMakeFiles/sqlite.dir/main.c.o CMakeFiles/sqlite.dir/meta_data.c.o CMakeFiles/sqlite.dir/input_buffer.c.o -o sqlite 
+/usr/bin/cc -g CMakeFiles/sqlite.dir/main.c.o CMakeFiles/sqlite.dir/meta_data.c.o CMakeFiles/sqlite.dir/input_buffer.c.o CMakeFiles/sqlite.dir/const.c.o -o sqlite 

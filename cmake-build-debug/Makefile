@@ -142,6 +142,33 @@ sqlite/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite.dir/build.make CMakeFiles/sqlite.dir/build
 .PHONY : sqlite/fast
 
+const.o: const.c.o
+
+.PHONY : const.o
+
+# target to build an object file
+const.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite.dir/build.make CMakeFiles/sqlite.dir/const.c.o
+.PHONY : const.c.o
+
+const.i: const.c.i
+
+.PHONY : const.i
+
+# target to preprocess a source file
+const.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite.dir/build.make CMakeFiles/sqlite.dir/const.c.i
+.PHONY : const.c.i
+
+const.s: const.c.s
+
+.PHONY : const.s
+
+# target to generate assembly for a file
+const.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqlite.dir/build.make CMakeFiles/sqlite.dir/const.c.s
+.PHONY : const.c.s
+
 input_buffer.o: input_buffer.c.o
 
 .PHONY : input_buffer.o
@@ -232,6 +259,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... sqlite"
+	@echo "... const.o"
+	@echo "... const.i"
+	@echo "... const.s"
 	@echo "... input_buffer.o"
 	@echo "... input_buffer.i"
 	@echo "... input_buffer.s"
