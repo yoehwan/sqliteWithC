@@ -25,5 +25,3 @@ const u_int32_t ROW_SIZE = ID_SIZE + USERNAME_SIZE + EMAIL_SIZE;
 
 ///depends on system byte 4kilobytes => 32bits system
 const u_int32_t PAGE_SIZE = 4096;
-const u_int32_t ROWS_PER_PAGE = PAGE_SIZE / ROW_SIZE;
-const u_int32_t TABLE_MAX_ROWS = ROWS_PER_PAGE * TABLE_MAX_PAGES;
